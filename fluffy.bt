@@ -8,7 +8,99 @@
       "label": ""
     },
     "properties": {},
-    "children": [],
+    "children": [
+      {
+        "activated": true,
+        "metadata": {
+          "label": ""
+        },
+        "properties": {},
+        "children": [
+          {
+            "activated": true,
+            "metadata": {
+              "label": "Left operand"
+            },
+            "properties": {
+              "name": "",
+              "inputParams": [],
+              "outputParams": [
+                {
+                  "key": "operand",
+                  "type": "entityKnowledge",
+                  "value": "leftOperand"
+                }
+              ]
+            },
+            "children": [],
+            "id": "0845e9d3-ad02-4e52-bcad-577d11f0ed61",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": "Binary Operator"
+            },
+            "properties": {
+              "name": "",
+              "inputParams": [],
+              "outputParams": [
+                {
+                  "key": "operator",
+                  "type": "entityKnowledge",
+                  "value": "operator"
+                }
+              ]
+            },
+            "children": [],
+            "id": "f707c4bd-2ecc-4279-910b-569743973bef",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": "Right operand"
+            },
+            "properties": {
+              "name": "",
+              "inputParams": [],
+              "outputParams": [
+                {
+                  "key": "operand",
+                  "type": "entityKnowledge",
+                  "value": "rightOperand"
+                }
+              ]
+            },
+            "children": [],
+            "id": "2b16193a-c77f-47e6-84cc-ac8659165493",
+            "type": "action"
+          },
+          {
+            "activated": true,
+            "metadata": {
+              "label": "Computation"
+            },
+            "properties": {
+              "name": "",
+              "inputParams": [
+                {
+                  "key": "leftOperand",
+                  "type": "entityKnowledge",
+                  "value": ""
+                }
+              ],
+              "outputParams": []
+            },
+            "children": [],
+            "id": "a1b06e92-d79b-4331-bb65-148a0c2df624",
+            "type": "action"
+          }
+        ],
+        "id": "b5bfe571-6b0e-4060-b256-5132a0d5d9e4",
+        "type": "sequence"
+      }
+    ],
     "id": "6ff66969-7dc3-47a9-86b6-8c663ca6a271"
   }
 ]
